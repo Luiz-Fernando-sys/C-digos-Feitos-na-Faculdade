@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulários</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			label, textarea {display: block;}
+			input[type="checkbox"] { display: inline; }
+		</style>
+	</head>
+	<body>
+		<h1>Entre em contato conosco: </h1>
+		<form method="POST" action="" enctype="">
+			<label for="nome-cliente">
+				Nome:
+				<!-- PLACEHOLDER coloca uma frase que eu quero que apareceça dentro do campo.-->
+				<input type="text" name="nome-cliente" id="nome-cliente" placeholder="Digite o seu nome" maxlength="25">
+			</label>
+<br>
+			<label for="email-cliente">
+				E-mail:
+				<input type="email" name="email-cliente" id="email-cliente" placeholder="Digite seu email">
+			</label>
+<br>
+			<label for="telefone-cliente">
+				Telefone:
+				<input type="tel" name="telefone-cliente" id="telefone-cliente" placeholder="(xx) x xxxx-xxxx">
+			</label>
+			<br>
+			<label>
+				Data de nascimento:
+				<input type="date" name="telefone-cliente" id="telefone-cliente" required="">
+			</label>
+			<br>
+			<label>
+				Selecione um estado:
+				<select>
+					<option>MG</option>
+					<option>SP</option>
+					<option>SC</option>
+					<option>AM</option>
+					<option>ES</option>
+					<option>RJ</option>
+					<option>BA</option>			
+				</select>
+			</label>
+<br>
+			<label>
+				Selecione uma disciplina:
+				<select>
+					<optgroup label="Programação">
+						<option>Linguagem de Programação</option>
+						<option>Programação Orientada a Objeto</option>
+						<option>Técnicas Avançadas de Programação</option>
+						<option>Aplicações Móveis</option>
+					</optgroup>
+
+					<optgroup label="Infraestrutura">
+						<option>Banco de Dados I</option>
+						<option>Banco de Dados II</option>
+						<option>Estrutura de Dados</option>
+						<option>Arquitetura de Redes</option>
+					</optgroup>		
+
+					<optgroup label="Marketing">
+						<option>Marketing Digital</option>
+						<option>Marketing de Conteúdo</option>
+						<option>Marketing de Afiliados</option>
+						<option>Marketing de Produtores de Infoprodutos</option>
+					</optgroup>
+
+				</select>
+			</label>
+<br>
+			<label>
+				Quais suas áreas favoritas?
+				<select multiple size="4">
+					<option>Tecnologia</option>
+					<option>Ciências Contábeis</option>
+					<option>Ciências Sociais</option>
+					<option>Ciências da Natureza</option>
+					<option>Ciências Humanas</option>
+					<option>Artes</option>
+					<option>Futebol</option>
+					<option>Política</option>
+				</select>
+			</label>
+			<br>
+			<label>
+				Quais suas áreas favoritas?
+				<select>
+					<option disabled>Corinthians</option>
+					<option>Palmeiras</option>
+					<option>Caldense</option>
+					<option disabled>CAM</option>
+					<option>São Paulo</option>
+					<option>Artes</option>
+					<option>Futebol</option>
+					<option>Política</option>
+				</select>
+			</label>			
+			<br>
+			<label>
+				Faça upload do seu histórico escolar:
+				<input type="file" name="historico-escolar" id="historico-escolar" required="">
+			</label>
+
+			<textarea name="mensagem-cliente" id="mensagem-cliente"></textarea>
+			<br>
+			<label for="lgpd">
+				<input type="checkbox" name="lgpd" id="lgpd" value="termos-lgpd" checked="checked" required>
+				Aceitos os termos da LGPD
+			</label>
+
+			<LABEL>
+				
+			</LABEL>
+
+			<fieldset>
+				<legend>
+					Qual o melhor horário para entrarmos em contato com você?
+				</legend>
+				<input type="hidden" name="codigo-cliente" value="xpto-123qwe!@#">
+				<label>
+					<input type="radio" name="turno" id="" value="manhã">
+					Manhã
+				</label>
+
+				<label>
+					<input type="radio" name="turno" id="" value="tarde">
+					Tarde
+				</label>
+
+				<label>
+					<input type="radio" name="turno" id="" value="noite">
+					Noite
+				</label>
+			</fieldset>
+
+			<input type="button" name="botao" id="botao" value="Qualquer tipo de botão.">
+			<input type="reset" name="botao-limpar" id="botao-limpar" value="Limpar">
+			<input type="submit" name="botao-submit" id="botao-submit" value="Enviar">
+
+
+		</form>
+
+	</body>
+</html>

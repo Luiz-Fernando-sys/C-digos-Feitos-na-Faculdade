@@ -1,0 +1,160 @@
+html {
+	scroll-behavior: smooth;
+}
+
+header{
+	background-color: #ccc;
+	width: 100%;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+main {
+	background-color: #ccc;
+	width: 100%;
+	margin-right: 90px;
+	text-align: left;
+	padding: 2%;
+}
+
+.imagem-topo{
+	width: 100px;
+	display: inline-block;
+	margin-left: 10%;
+	margin: 5px !important;
+}
+
+img{
+	background-color: #ccc;
+	margin-left: 5px;
+	width: 12%;
+	display: inline-block;
+	margin: 2px;
+	padding: 20px;
+}
+
+.sub1 {
+	color: #120a8f;
+}
+
+#descricao1{
+	color: red;
+}
+
+h1{
+	display: inline-block;
+	text-align: center;
+	font-size: 35px;
+	margin: 0;
+	height: 30%;
+	vertical-align: 150%;
+}
+
+div{
+	display: flex;
+	/*position: absolute;*/
+	background-color: #002351;
+}
+
+.imagens_filme{
+	display: flex;
+	position: absolute;
+	background-color: #ccc;
+}
+
+p {
+	text-align: justify;
+	font-size: 20px;
+	color: 171b3c
+}
+
+#paragrafo1 {
+	color: #1C1C1C;
+}
+
+.filmes123 {
+	font-style: italic;
+}
+
+.subtituloh2{
+	text-decoration: underline;
+	color: #120a8f;
+}
+
+.subtitulo-listas{
+	color: #bc0200;
+}
+
+.menu{
+	display: inline-block;
+	margin-left: 885px;
+	margin-right: 221px;
+}
+
+.item-menu{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+nav{
+	display: inline-block;
+	float: right;
+	margin-top: 5px;
+	margin: -106px;
+}
+
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#thumbs {
+	text-align: center;
+	margin-right: 90px;
+	margin-top: 20px;
+	margin-bottom: -2px;
+}
+
+
+#thumb {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	padding: -10px 6px;
+	margin-right: 50px;
+	border: 1px solid #000000;
+	vertical-align: top;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+main ul li h2 {
+	font-size: 25px;
+	font-size: bold;
+}
+
+.img-thumb {
+	padding: 5px;
+}
+
+.h2-thumb {
+	margin: 3px;
+}
+
+footer {
+	background-color: black;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+footer p {
+	font-size: 18px;
+	color: white;
+	margin-left: 38.6%;
+	margin-right: 15%;
+}
+
+#ul_filmes {
+
+}
